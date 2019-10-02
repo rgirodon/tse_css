@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  float: left;
+  width: calc(50% - 5px);
+  background-color: grey;
+  padding: 5px;
+}
+
+div + div {
+  margin-left: 10px;
+}
+
+footer {
+  clear: left;
+  text-align: center;
+}

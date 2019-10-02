@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="positionning_fixed_absolute.css" />
+      <title>DTA Absolute Positionning Demo</title>
+  </head>
+  <body>
+    <main>
+      <button id="open">Launch modal</button>
+    </main>
+    <div id="modal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body">
+        <button class="modal-close" id="close">Close</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    var open = document.getElementById('open');
+    var close = document.getElementById('close');
+    var modal = document.getElementById('modal');
+
+    modal.style.display = 'none';
+
+    open.onclick = function() {
+
+      modal.style.display = 'block';
+    }
+
+    close.onclick = function() {
+
+      modal.style.display = 'none';
+    }
+
+    /*
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+      modal.style.display = 'block';
+    });
+
+    close.addEventListener('click', function (event) {
+      event.preventDefault();
+      modal.style.display = 'none';
+    });
+    */
+  </script>
+</html>
+

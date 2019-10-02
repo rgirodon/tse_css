@@ -1,0 +1,29 @@
+ body {
+  box-sizing: border-box; 
+  margin: 0;
+  padding:0;
+}
+
+.container div {
+  float: left;
+  width: calc(25% - 7.5px);
+  background-color: grey;
+  border-radius: 5px;
+  margin-left : 10px;
+}
+
+.container div:first-child {
+  margin-left : 0;
+}
+
+
+.clearfix {    
+  clear: both;
+  padding-top: 10px;
+}
+
+.clearfix div {    
+  text-align: center;
+  background-color: grey;
+  border-radius: 5px;
+}
