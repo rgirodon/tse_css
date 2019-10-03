@@ -1,0 +1,45 @@
+* + * {
+    margin-top: 10px;
+}
+
+header {
+    background-color : #ccc;
+    text-align : center;
+    padding : 5px;
+    border-radius: 15px;
+}
+
+main {
+    background-color : #666;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+}
+
+div.col {
+    background-color : #ccc;
+    text-align : center;
+    border-radius: 15px;
+    padding : 5px;
+    margin-top: 0;
+    flex: 1;
+}
+
+div.small {
+    flex: 0.5;
+}
+
+div.large {
+    flex: 2;
+}
+
+div.col + div.col {
+    margin-left: 10px;
+}
+
+footer {
+    background-color : #ccc;
+    text-align : center;
+    border-radius: 15px;
+    padding : 5px;
+}
