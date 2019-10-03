@@ -1,0 +1,34 @@
+* + * {
+    margin-top: 10px;
+}
+
+header {
+    background-color : #ccc;
+    text-align : center;
+    padding : 5px;
+    border-radius: 15px;
+}
+
+main {
+    background-color : #666;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-gap: 10px;
+}
+  
+main > div {
+    background-color : #ccc;
+    padding: 2em;
+    border-radius: 0.5em;
+    margin-top: 0;
+}
+
+footer {
+    background-color : #ccc;
+    text-align : center;
+    border-radius: 15px;
+    padding : 5px;
+}
