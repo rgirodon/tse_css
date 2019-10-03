@@ -1,0 +1,40 @@
+div {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	border: 2px solid black;
+	background-color: #ea5;	
+	vertical-align: top;
+}
+
+div + div {
+	margin-left: -60px;
+}
+
+.one {
+    position: relative;
+    z-index: 1;
+}
+
+.two {   
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.three {
+	margin-top: 60px;
+}
+
+.absolute {
+    position: absolute;
+	top: 1em;
+	right: 1em;
+	height: 1.5em;
+	width: auto;
+	background-color: #fff;
+	border: 2px solid black;	
+	line-height: initial;
+	padding: 0.5em;
+}
