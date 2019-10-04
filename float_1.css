@@ -1,7 +1,7 @@
- body {
+ * {
   box-sizing: border-box; 
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 .container div {
@@ -10,15 +10,15 @@
   background-color: grey;
   border-radius: 5px;
   margin-left : 10px;
+  padding: 10px;
 }
 
 .container div:first-child {
   margin-left : 0;
 }
 
-
 .clearfix {    
-  clear: both;
+  clear: left;
   padding-top: 10px;
 }
 
@@ -26,4 +26,5 @@
   text-align: center;
   background-color: grey;
   border-radius: 5px;
+  padding: 10px;
 }

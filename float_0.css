@@ -1,3 +1,4 @@
+/*
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,8 +15,38 @@ div {
 div + div {
   margin-left: 10px;
 }
+*/
 
+/*
 footer {
   clear: left;
   text-align: center;
+}
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div:nth-of-type(1) {
+  float: left;
+  width: calc(50% - 5px);
+  background-color: grey;
+  padding: 10px;
+}
+
+div:nth-of-type(2) {
+  float: right;
+  width: calc(50% - 5px);
+  background-color: grey;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #ccc;
+  clear: both;
 }
