@@ -7,6 +7,9 @@ nav > ul {
     display: flex; 
     padding: 0 10px;  
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
   
 nav > ul > li {
@@ -17,20 +20,22 @@ nav > ul > li {
     border-radius: 15px;
     padding: 10px;
     width : 100px;
-    flex: 25%;    
+    /* flex: 1; */    
 }
 
+/*
 nav > ul > li.small {
-    flex: 20%;
+    flex: 0.5;
 }
 
 nav > ul > li.big {
-    flex: 30%;
+    flex: 2;
 }
+*/
 
 nav > ul > li:hover {
     background-color: #aaa;
-  }
+}
   
 nav > ul > li > a {
     color: inherit;
@@ -39,8 +44,4 @@ nav > ul > li > a {
   
 nav > ul > li + li {
     margin-left: 10px;
-}
-
-nav > ul > li.nav-right {
-    margin-left: auto;
 }

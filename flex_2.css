@@ -14,6 +14,7 @@ main {
     border-radius: 15px;
     padding: 10px;
     display: flex;
+    align-items: flex-start;
 }
 
 div.col {
@@ -25,11 +26,11 @@ div.col {
     flex: 1;
 }
 
-div.small {
+div.col.small {
     flex: 0.5;
 }
 
-div.large {
+div.col.large {
     flex: 2;
 }
 

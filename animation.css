@@ -1,0 +1,33 @@
+@keyframes motion {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(150px);
+    }
+
+    100% {
+        transform: translate(150px, 60px) rotate(30deg);
+        border-radius: 30px;
+        background-color: #800;
+    }
+}
+
+div {
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #008;
+}
+
+#div1:hover {
+    animation-name: motion;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+#div2 {
+    animation: motion 3s alternate infinite;
+}

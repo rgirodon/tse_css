@@ -1,0 +1,26 @@
+div {
+    margin: 50px;
+    padding: 10px;
+    border: solid;
+}
+
+#logo_dta_1 {
+    transform: rotate(10deg);
+    transform-origin: 0 100%;
+}
+
+#logo_dta_2 {
+    transform: scale(1.2);
+}
+
+#logo_dta_3 {
+    transform: translate(250px, -100px);
+}
+
+#logo_dta_4 {
+    transform: skewX(10deg);
+}
+
+#logo_dta_5 {
+    transform: rotate(10deg) scale(0.5) translate(500px, -100px) skewX(10deg);
+}

@@ -1,0 +1,57 @@
+body {
+    perspective: 600px;
+}
+
+div {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border: solid;
+    background-image: linear-gradient(white, black);
+    opacity: 0.5;
+    width: 200px;
+    height: 150px;
+    transition: transform 2s;    
+    font-size: 1.3em;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+#div0 {       
+    z-index: 0;  
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#div1 {
+    z-index: 1;
+    text-align: right;
+    padding: 30px 10px;
+}
+
+
+#div1:hover {
+    transform: translateZ(100px);
+}
+
+#div1:hover + #div0 {
+    transform: translateZ(-100px);
+}
+
+
+/*
+#div1:hover {
+    transform: rotateY(180deg);
+}
+*/
+
+/*
+#div1:hover {
+    transform: scaleY(1.2);
+}
+
+#div1:hover + #div0 {
+    transform: scaleX(1.2);
+}
+*/

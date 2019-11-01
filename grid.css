@@ -9,6 +9,18 @@ header {
     border-radius: 15px;
 }
 
+/*
+main {
+    background-color : #666;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: [left] 1fr [middle] 2fr [right];
+    grid-template-rows: [top] 1fr [middle-top] 4fr [middle-bottom] 1fr [bottom];
+    grid-gap: 10px;
+}
+*/
+
 main {
     background-color : #666;
     border-radius: 15px;
@@ -16,14 +28,72 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: "act1 act4"
+                         "act2 ."
+                         "act3 act6";
     grid-gap: 10px;
 }
+
   
 main > div {
     background-color : #ccc;
     padding: 2em;
     border-radius: 0.5em;
     margin-top: 0;
+}
+
+/*
+#act1 {
+    grid-column: left / middle;
+    grid-row: top / middle-top;
+}
+
+#act2 {
+    grid-column: left / middle;
+    grid-row: middle-top / middle-bottom;
+}
+
+#act3 {
+    grid-column: left / middle;
+    grid-row: middle-bottom / bottom;
+}
+
+#act6 {
+    grid-column: middle / right;
+    grid-row: top / middle-top;
+}
+
+#act5 {
+    grid-column: middle / right;
+    grid-row: middle-top / middle-bottom;
+}
+
+#act4 {
+    grid-column: middle / right;
+    grid-row: middle-bottom / bottom;
+}
+*/
+
+#act1 {
+    grid-area: act1;
+}
+
+#act2 {
+    grid-area: act2;
+}
+
+#act3 {
+    grid-area: act3;
+}
+
+#act6 {
+    grid-area: act6;
+}
+
+
+
+#act4 {
+    grid-area: act4;
 }
 
 footer {
