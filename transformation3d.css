@@ -14,14 +14,13 @@ div {
     transition: transform 2s;    
     font-size: 1.3em;
     font-family: arial, sans-serif;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 #div0 {       
     z-index: 0;  
     text-align: left;
-    padding: 10px 10px;
+    padding: 30px 10px;
 }
 
 #div1 {
