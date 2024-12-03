@@ -1,0 +1,11 @@
+p {
+  background-color: yellow;
+  padding: 10px;
+}
+
+.positioned {
+  background-color: cyan;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
