@@ -26,14 +26,6 @@ div.col {
     flex: 1;
 }
 
-div.col.small {
-    flex: 0.5;
-}
-
-div.col.large {
-    flex: 2;
-}
-
 div.col + div.col {
     margin-left: 10px;
 }
