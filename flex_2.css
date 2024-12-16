@@ -17,13 +17,20 @@ main {
     align-items: flex-start;
 }
 
+div.col.small {
+    flex: 1;
+}
+
+div.col.large {
+    flex: 2;
+}
+
 div.col {
     background-color : #ccc;
     text-align : center;
     border-radius: 15px;
     padding : 5px;
     margin-top: 0;
-    flex: 1;
 }
 
 div.col + div.col {

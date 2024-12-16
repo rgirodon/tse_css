@@ -4,23 +4,23 @@ div {
     border: solid;
 }
 
-#logo_dta_1 {
+#logo_tse_1 {
     transform: rotate(10deg);
     transform-origin: 0 100%;
 }
 
-#logo_dta_2 {
-    transform: scale(1.2);
+#logo_tse_2 {
+    transform: scale(1.5);
 }
 
-#logo_dta_3 {
-    transform: translate(250px, -100px);
+#logo_tse_3 {
+    transform: translate(200px, -50px);
 }
 
-#logo_dta_4 {
+#logo_tse_4 {
     transform: skewX(10deg);
 }
 
-#logo_dta_5 {
+#logo_tse_5 {
     transform: rotate(10deg) scale(0.5) translate(500px, -100px) skewX(10deg);
 }

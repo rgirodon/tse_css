@@ -26,11 +26,11 @@ main {
     border-radius: 15px;
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 4fr 1fr;
-    grid-template-areas: "act1 act4"
-                         "act2 act2"
-                         "act3 act6";
+    grid-template-areas: "act1 act4 act4"
+                         "act2 act2 act5"
+                         "act3 act6 act6";
     grid-gap: 10px;
 }
 
@@ -60,6 +60,10 @@ main > div {
 
 #act4 {
     grid-area: act4;
+}
+
+#act5 {
+    grid-area: act5;
 }
 
 footer {
