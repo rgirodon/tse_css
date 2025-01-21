@@ -1,0 +1,39 @@
+.screenshot-wrapper {
+    width: 600px;
+    margin: 3rem auto;
+    background: #eee;
+    padding: 3rem;
+}
+
+.tooltip {
+    background: black;
+    color: white;
+    position: relative;
+    padding: 0.5rem;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.tooltip::after {
+    /* empty content */
+    content: "";
+
+    /* positionned at the bottom centered, plus 50% of its own width to the left */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* triangle */
+    border: 10px solid black;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: black;
+    border-bottom-color: transparent;
+    width: 0;
+    height: 0;
+}
+
+
