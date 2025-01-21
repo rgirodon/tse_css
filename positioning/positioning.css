@@ -1,0 +1,30 @@
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+}
+
+figcaption{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+
+#example1 figcaption{
+    left: 20px;
+    bottom: 20px;
+}
+
+.menu_item figcaption{
+    right: 0px;
+    bottom: 0px;
+    background: #d36f1d;
+    padding: 30px;
+}
