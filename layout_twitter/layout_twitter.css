@@ -1,0 +1,64 @@
+.tweet {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #657786;
+    padding: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.tweet + .tweet {
+    margin-top: 10px;
+}
+
+p, ul {
+    margin: 0;
+}
+
+.author-meta, p {
+    margin-bottom: 1em;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.handle, .time {
+    color: #657786;
+}
+
+.handle::after {
+    content: " \00b7";
+}
+
+.content {
+    flex: 1;
+}
+
+.avatar {
+    margin-right: 10px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.actions {
+    display: flex;
+    padding: 0;
+}
+
+.actions li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.actions button {
+    border: none;
+    color: #657786;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.actions button:hover {
+    color: #1da1f2;
+}
